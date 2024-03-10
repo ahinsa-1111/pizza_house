@@ -37,13 +37,28 @@ class HomePage extends StatelessWidget {
               ),
               SizedBox(height: 30),
               Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 15),
-                  child: Text("Hot & Fast Food",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                      )))
+                padding: EdgeInsets.symmetric(horizontal: 15),
+                child: Text(
+                  "Hot & Fast Food",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              SizedBox(height: 5),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 15),
+                child: Text(
+                  "Delivers on time",
+                  style: TextStyle(
+                    color: Colors.white60,
+                    fontSize: 22,
+                  ),
+                ),
+              ),
+              SizedBox(height: 30),
             ],
           ),
         ),
